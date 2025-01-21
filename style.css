@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    font-family: 'Inter';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+}
+section {
+    padding-top: 1.5rem;
+    width: 320px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 8px;
+    div {
+        &.profile-pic{
+            padding: 0rem 1.5rem;
+            margin: 1rem 1.5rem;
+        }
+        &.profile{
+            margin: 1rem 1.5rem;
+        }
+        h1{
+            margin-bottom: 0.25rem;
+            font-size: 18px;
+        }
+        justify-items: center;
+        text-align: center;
+        img {
+            border-radius: 50%;
+            width: 65px;
+            height: 65px;
+            zoom: 1.5;
+        }
+        span.green{
+            font-size: 12px;
+            display: inline-block;
+            margin-top: .25rem;
+            margin-bottom: 1rem;
+        }
+        p.white{
+            font-size: 11px;
+            margin-bottom: .75rem;
+        }
+    }
+}
+.links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+    li{
+        width: 100%;
+        a.btn-link {
+            display: block;
+            color: hsl(0, 0%, 100%);
+            text-decoration: none;
+            text-align: center;
+            width: 100%;
+            padding: .5rem;
+            margin-bottom:.75rem;
+            border-radius: 8px;
+            border: solid 2px hsl(0, 0%, 20%);
+            font-size: 12px;
+            font-weight: bold;
+            background-color: hsl(0, 0%, 20%);
+        }
+        a.btn-link:hover {
+            background-color: hsl(75, 94%, 57%);
+            color: hsl(0, 0%, 20%);
+            transition: background-color .5s color .5s;
+        }
+    } 
+}
+.attribution {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 9px;
+    & a {
+        color: hsl(228, 45%, 44%);
+    }
+} 
+
+/* colors */
+.green {
+    color: hsl(75, 94%, 57%);
+}
+.white {
+    color: hsl(0, 0%, 100%);
+}
+.grey-700 {
+    color: hsl(0, 0%, 20%);
+}
+.grey-800 {
+    color: hsl(0, 0%, 12%);
+}
+.grey-900 {
+    color: hsl(0, 0%, 8%);
+}
