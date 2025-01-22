@@ -14,7 +14,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -35,9 +34,7 @@ Desktop view(1440x1024)
 Mobile view(375x812)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [jasterpepito11.github.io/social-links](https://jasterpepito11.github.io/social-links/)
 
 ## My process
 
@@ -57,7 +54,7 @@ I would like to continue on honing my front-end skills and eventually taking on 
 
 ## Author
 
-- LinkedIn - [Add your name here](https://www.linkedin.com/in/joshua-lester-pepito)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jasterpepito11)
+- LinkedIn - [Joshua Lester Pepito](https://www.linkedin.com/in/joshua-lester-pepito)
+- Frontend Mentor - [@jasterpepito11](https://www.frontendmentor.io/profile/jasterpepito11)
 
 
